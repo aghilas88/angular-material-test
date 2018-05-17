@@ -1,0 +1,34 @@
+<button mat-button [matMenuTriggerFor]="mode">menu</button>
+
+<mat-menu #mode="matMenu">
+  <button mat-menu-item [matMenuTriggerFor]="femmeCat">FEMME</button>
+  <button mat-menu-item [matMenuTriggerFor]="hommeCat">HOMME</button>
+  <button mat-menu-item [matMenuTriggerFor]="enfantCat">ENFANT</button>
+</mat-menu>
+
+<mat-menu #femmeCat="matMenu">
+  <button mat-menu-item>Nouveautés</button>
+  <button mat-menu-item>Vêtements</button>
+  <button mat-menu-item>Chaussures</button>
+  <button mat-menu-item>Sport</button>
+  <button mat-menu-item>Accessoires</button>
+  <button mat-menu-item>Lingerie</button>
+  <button mat-menu-item>Luxe</button>
+</mat-menu>
+
+<mat-menu #hommeCat="matMenu">
+  <button mat-menu-item>Nouveautés</button>
+  <button mat-menu-item>Vêtements</button>
+  <button mat-menu-item>Chaussures</button>
+  <button mat-menu-item>Sport</button>
+  <button mat-menu-item>Accessoires</button>
+  <button mat-menu-item>Lingerie</button>
+  <button mat-menu-item>Luxe</button>
+</mat-menu>
+
+<mat-menu #enfantCat="matMenu">
+  <button mat-menu-item>Bébé</button>
+  <button mat-menu-item>Fille</button>
+  <button mat-menu-item>Garçon</button>
+</mat-menu>
+

@@ -1,0 +1,7 @@
+<div [class.example-is-mobile]="mobileQuery.matches">
+  <mat-grid-list [cols]="mobileQuery.matches?1:4" rowHeight="3:4">
+    <mat-grid-tile  *ngFor="let product of products">
+      <app-product-resume></app-product-resume>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>

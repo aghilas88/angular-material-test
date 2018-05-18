@@ -37,3 +37,7 @@ h1.example-app-name {
 .example-icon {
   padding: 0 14px;
 }
+
+.material-icons {
+  font-size: 30px;
+}

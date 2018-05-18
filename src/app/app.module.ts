@@ -12,6 +12,7 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { ProductResumeComponent } from './product-resume/product-resume.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
+import { FacetsComponent } from './facets/facets.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { SearchBarComponent } from './search-bar/search-bar.component';
     ProductListComponent,
     ProductDetailsComponent,
     ProductResumeComponent,
-    SearchBarComponent
+    SearchBarComponent,
+    FacetsComponent
   ],
   imports: [
     BrowserModule,
